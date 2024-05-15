@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors'); // Import cors middleware
+require('dotenv').config();
 
 const app = express();
 const port = 8000;
